@@ -19,6 +19,9 @@ print(df.head())
 comments_list = df.values.tolist()
 #print(comments_list)
 
+
+
+
 """ Since the .csv file contains 100 same comments I'll use one comment as a example """
 
 comment = "Hate speech is usually thought to include communications of animosity or disparagement of an individual or a group on account of a group characteristic such as race  color  national origin  sex  disability  religion  or sexual orientation."
@@ -56,4 +59,3 @@ for i in range(len(comment_tk_sw_removed_stemmed)):
 print("Lemmatized comment: \n" , comment_tk_sw_removed_stemmed_lem)
 
 
-#Logistic regression

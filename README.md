@@ -22,5 +22,10 @@ Design part of the sub-system for a data store of hate-speech-related content an
 - Design a classifier to determine which picece of information is hate speech ONLY
     - **Tools needed**:pandas, numpy, sklearn(logistic regression), .csv, NLP
 
+## How to Run
+- Run data_collection.py would scrap comments from Youtube comment session and write into a .csv file (issue exists)
+- Then run nlp.py will preprocess the text data 
+- logistic_model.py is used to train a classifier that can classify if a comment is hate speech or not 
+
 
 
